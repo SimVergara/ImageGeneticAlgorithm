@@ -1,0 +1,3 @@
+make clean;
+make;
+instruments -t "Time Profiler" -D ProfileResults ./genimg image2.ppm image2_1000_1000.ppm 1000 1000
